@@ -12,7 +12,7 @@ $voltar = "../";
  $mail->SMTPAutoTLS = false; // Utiliza TLS Automaticamente se disponível
  $mail->SMTPAuth = true; # Usar autenticação SMTP - Sim
  $mail->Username = 'joao@newsoda.com.br'; # Usuário de e-mail
- $mail->Password = 'Joaonixs123!'; // # Senha do usuário de e-mail
+ $mail->Password = 'senha'; // # Senha do usuário de e-mail
  $mail->From = "joao@newsoda.com.br"; // From
  $mail->FromName = "João Victor" ; // Nome de quem envia o email
  $mail->AddAddress($mailDestino, $nome); // Email e nome de quem receberá //Responder
